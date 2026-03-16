@@ -1,0 +1,143 @@
+body{
+    margin: 0px;
+    font-family: 'Segoe UI';
+    background: url(img/Tokyo-GettyImages-1131743616-1000x3000.jpg) no-repeat;
+    background-size: cover;
+}
+.child-nav{
+    justify-content: space-around;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.nav-area{
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+.nav-area-2{
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left: 200px;
+}
+
+.child-nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-weight: bold;
+}    
+.child-nav a:hover {
+  background-color: #555;
+  color: white;
+}
+.child-nav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+.parent-banner{
+    height: 700px;
+    display: flex;
+    align-items: initial;
+    justify-content: center;
+   
+}
+.parent-banner-2{
+    height: 700px;
+    display: flex;
+    align-items: initial;
+    justify-content: space-between;
+    
+   
+}
+.child-banner{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    
+}
+.sidebar {
+  /* Position the sidebar to the left side and give it a fixed width */
+ /* Full-height */
+  height: 100%;
+  width: 200px;
+  position: fixed; /* Fixes position during scrolling */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #f1f1f1; /* Light gray background */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* Style the links inside the sidebar */
+.sidebar a {
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  display: block; /* Makes the entire link area clickable */
+}
+
+/* Change color on hover */
+.sidebar a:hover {
+  background-color: #555;
+  color: white;
+}
+
+/* Style the active link (the current page) */
+.sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Add a left margin to the main content to avoid overlap */
+.content {
+  margin-left: 200px; 
+  padding: 1px 16px;
+  height: 1000px;
+}
+.dos{
+    width: 900px;
+    height: 650px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    margin-left: 280px;
+    margin-right: 80px;
+    background-color: #04aa6d2f;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.donts{
+    width: 900px;
+    height: 650px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    margin-right: 80px;
+    background-color: rgba(190, 2, 2, 0.24);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
